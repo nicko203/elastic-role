@@ -7,7 +7,7 @@ Role Variables
 --------------
 There is only two variables that you can redefine in your playbook.
 ```yaml
-elastic_version: "7.10.1" # Use for download only this version of elastic
+elastic_version: "8.3.2" # Use for download only this version of elastic
 elastic_home: "/opt/elastic/{{ elastic_version }}" # Use for unpackage distro and create ES_HOME variable
 ```
 
